@@ -11,17 +11,28 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MahApps.Metro.Controls;
 
 namespace NTHULearnor
 {
     /// <summary>
     /// MainWindow.xaml 的互動邏輯
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : MetroWindow
     {
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void btnSetting_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnAbout_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
